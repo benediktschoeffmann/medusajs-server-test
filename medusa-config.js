@@ -62,8 +62,10 @@ module.exports = {
     // database_type: "postgres",
     database_database: "./medusa-db.sql",
     database_type: "sqlite",
+    database_logging: true,
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
+    redis_url: REDIS_URL
   },
   plugins,
 };
